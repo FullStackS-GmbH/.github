@@ -1,16 +1,5 @@
 {
     "name": "Dummy Workflow",
     "description": "Dummy CI workflow template.",
-    "iconName": "example-icon",
-    "categories": [
-        "continuous-integration",
-        "deployment",
-        "Automation",
-        "utilities",
-        "dependency-management"
-    ],
-    "filePatterns": [
-        ".*\\.yml$",
-        ".*\\.yaml$"
-    ]
+    "iconName": "example-icon"
 }
