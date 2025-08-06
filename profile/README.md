@@ -1,7 +1,7 @@
 <!-- profile.md -->
 
 <p align="center">
-  <img src="[https://www.fullstacks.eu/Logo_final-01-removebg-preview.png](https://static.wixstatic.com/media/49bfb0_c219053e8e244c45b0ab0f008616bd00~mv2.png/v1/fit/w_2500,h_1330,al_c/49bfb0_c219053e8e244c45b0ab0f008616bd00~mv2.png)" width="220" alt="FullStackS logo">
+  <img src="https://static.wixstatic.com/media/49bfb0_c219053e8e244c45b0ab0f008616bd00~mv2.png/v1/fit/w_2500,h_1330,al_c/49bfb0_c219053e8e244c45b0ab0f008616bd00~mv2.png" width="220" alt="FullStackS logo">
 </p>
 
 # FullStackS GmbH
