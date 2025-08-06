@@ -1,0 +1,37 @@
+# name: CI
+# on:
+#   push:
+#     branches: [ main ]
+# jobs:
+#   container-test-job:
+#     runs-on: ubuntu-latest
+#     container:
+#       image: node:18
+#       env:
+#         NODE_ENV: development
+#       ports:
+#         - 80
+#       volumes:
+#         - my_docker_volume:/volume_mount
+#       options: --cpus 1
+#     steps:
+#       - name: Check for dockerenv file
+#         run: (ls /.dockerenv && echo Found dockerenv) || (echo No dockerenv)
+
+
+
+name: Universal Airgapper
+
+on:
+  push:
+    branches: [ $default-branch ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/fullstacks-gmbh/universal-airgapper:0.0.10
+
+    steps:
+      - name: Run a one-line script
+        run: echo Hello from dummy
